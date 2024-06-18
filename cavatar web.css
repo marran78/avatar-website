@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to right, rgb(26, 16, 57), rgb(0, 0, 0));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.continer{
+    background-image: linear-gradient(to right, rgba(27, 14, 59, 0.922) 30%, rgba(0, 0, 0, 0.374) ),
+    url(download.webp);
+    width: 90%;
+    height: 570px;
+    background-position: center;
+}
+.continer:hover{
+    background-image: 
+    linear-gradient(to right, rgba(27, 14, 59, 0.922) 30%, transparent),
+    url(download.webp);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 10px;
+
+}
+.logo{
+font-size: 40px;
+text-transform: uppercase;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+   
+}
+ul li{
+    background-color:rgba(27, 14, 59, 0.922) ;
+    flex-flow: row wrap;
+    padding: 10px;
+    width: 50px;
+    justify-self: center;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+}
+ul li:hover{
+    background-color:rgba(27, 14, 59, 0.922) ;
+    flex-flow: row wrap;
+    font-size: 20px;
+    padding: 10px;
+    width: 100px;
+    justify-self: center;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+}
+.content{
+    width: 50%;
+    padding: 50px;
+    color: white;
+
+}
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.content p{
+    letter-spacing: 2px;
+    width: 350px;
+    padding: 20px 0;
+}
+button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
